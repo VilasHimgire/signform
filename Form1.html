@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example of Form</title>
+   
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            background-color: #f3f6ff;
+        }
+
+        h2 {
+            text-align: center;
+            padding-bottom: 7px;
+            color: rgb(23, 49, 70);
+            font-size: 36px;
+        }
+
+        #formId {
+            height: 450px;
+            width: 400px;
+            border: 2px solid gray;
+            background-color: antiquewhite;
+            margin-left: auto;
+            margin-right: auto;
+            padding-left: 9px;
+            padding-top: 14px;
+            padding-bottom: 7px;
+            line-height: 24px;
+        }
+
+        .iptfld {
+            width: 380px;
+        }
+
+        .btn {
+            background-color: blue;
+            color: black;
+            border: 2px solid rgb(44, 27, 27);
+            border-radius: 6px;
+            width: 95px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            margin-left: 76px;
+            margin-right: -29px;
+            margin-top: 15px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <h2>SignUp</h2>
+    <form id="formId" action="" method="get">
+        Enter Your Name : <br>
+        <input type="text" name="Enter your Name" class="iptfld"><br>
+        Enter Your E-mail : <br>
+        <input type="email" name="Enter your E-mail" id="email" class="iptfld"><br>
+        Enter Your Phone No. : <br>
+        <input type="number" name="Enter your phone number" id="number" class="iptfld"><br>
+        Enter Your Password : <br>
+        <input type="password" name="Enter your password" id="password" class="iptfld"><br>
+        Confirm your Password : <br>
+        <input type="password" name="Confirm your password" id="Confirm password" class="iptfld"><br>
+        Gender : <br>
+        Male <input type="radio" name="Male" id="Male">
+        Female <input type="radio" name="female" id="Female">
+        Other <input type="radio" name="other" id="Other"> <br>
+        Select your hobby : <br>
+        Reading <input type="checkbox" name="Reading" id="Reading"> <br>
+        Playing <input type="checkbox" name="Playing" id="Playing"> <br>
+        Listening songs <input type="checkbox" name="Listening songs" id="Listening songs"> <br>
+
+        <input type="submit" value="Register" class="btn">
+        <input type="submit" value="Clear" class="btn">
+    </form>
+
+   
+</body>
+
+</html>
